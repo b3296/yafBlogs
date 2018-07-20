@@ -1,0 +1,257 @@
+html, body {
+    height: 100%;
+}
+body {
+    font-family: "宋体","Segoe UI", "Open Sans", sans-serif, serif;
+    font-size: 12px;
+    line-height: 1.1;
+    font-weight: 400;
+    font-style: normal;
+}
+.app-bar .app-bar-menu > li, .app-bar .app-bar-menu > li > a , .app-bar .app-bar-element{
+    line-height: 40px;
+    font-size: 14px;
+    height: 40px;
+}
+.app-bar{
+    background: #3D3D3D;
+}
+.app-bar .app-bar-divider{
+    background: #787878;
+}
+.page-content {
+    margin-top: 97px;
+    min-height: 90%;
+    height: 100%;
+}
+#file_list .button{
+    height:35px;
+    padding: 0 0.5rem;
+    border-color: #ffffff;
+    font-size: 13px;
+}
+#file_list .button:hover{
+    /*border:2px  #e74c3c solid;*/
+    /*border-color: red;*/
+    /*border: 2px;*/
+}
+
+#file_list .button.file_folder:hover{
+    border:2px  #e74c3c solid;
+    /*border-color: red;*/
+    /*border: 2px;*/
+}
+
+#file_list .row{
+    margin: 0px;
+}
+
+.sidebar2{
+    border: 0px;
+}
+.sidebar2 li a{
+    font-size: 14px;
+}
+
+.table tbody td{
+    padding:  2px 0px 2px 7px;
+}
+/* 复盖层 */
+
+.dialog-overlay{
+    background: #8a8a8a;
+    filter:alpha(opacity=60);  
+    -moz-opacity:0.6;  
+    -khtml-opacity: 0.6;  
+    opacity: 0.6;  
+}
+
+/*表单*/
+
+.input-control input, .input-control textarea, .input-control select {
+    height:30px; 
+}
+
+.input-control > .helper-button,
+.input-control > .button-group > .helper-button {
+    visibility: hidden;
+    margin: 0;
+    border: 0;
+    height: 1.175rem;
+    padding: 0 .6rem;
+    z-index: 100;
+    font-size: .75rem;
+}
+.input-control > .button.helper-button {
+    margin: 3px 2px 0px 0px;
+}
+
+.padding_left_10{
+    padding-left: 10px;
+}
+.padding_left_20{
+    padding-left: 20px;
+}
+.padding_left_30{
+    padding-left: 30px;
+}
+.padding_left_40{
+    padding-left: 40px;
+}
+.padding_left_50{
+    padding-left: 50px;
+}
+.padding_left_60{
+    padding-left: 60px;
+}
+.padding_left_70{
+    padding-left: 70px;
+}
+.padding_left_80{
+    padding-left: 80px;
+}
+.padding_left_90{
+    padding-left: 90px;
+}
+.padding_left_100{
+    padding-left: 100px;
+}
+
+
+.padding_right_10{
+    padding-right: 10px;
+}
+.padding_right_20{
+    padding-right: 20px;
+}
+.padding_right_30{
+    padding-right: 30px;
+}
+.padding_right_40{
+    padding-right: 40px;
+}
+.padding_right_50{
+    padding-right: 50px;
+}
+.padding_right_60{
+    padding-right: 60px;
+}
+.padding_right_70{
+    padding-right: 70px;
+}
+.padding_right_80{
+    padding-right: 80px;
+}
+.padding_right_90{
+    padding-right: 90px;
+}
+.padding_right_100{
+    padding-right: 100px;
+}
+
+.margin_top_10{
+    margin-top: 10px;
+}
+.margin_top_20{
+    margin-top: 20px;
+}
+.margin_top_30{
+    margin-top: 30px;
+}
+.margin_top_40{
+    margin-top: 40px;
+}
+.margin_top_50{
+    margin-top: 50px;
+}
+.margin_top_60{
+    margin-top: 60px;
+}
+.margin_top_70{
+    margin-top: 70px;
+}
+.margin_top_80{
+    margin-top: 80px;
+}
+.margin_top_90{
+    margin-top: 90px;
+}
+.margin_top_100{
+    margin-top: 100px;
+}
+.margin_left_5{
+    margin-left: 5px;
+}
+
+
+
+.mif-css {
+    height: 17px;
+    width: 13px;
+    background:   url('/img/ico/css.png') no-repeat  left top;
+    background-size: 100% 100%;
+}
+.mif-js {
+    height: 17px;
+    width: 13px;
+    background:   url('/img/ico/js.png') no-repeat  left top;
+    background-size: 100% 100%;
+}
+.mif-htm {
+    height: 17px;
+    width: 13px;
+    background:   url('/img/ico/htm.png') no-repeat  left top;
+    background-size: 100% 100%;
+}
+.mif-html {
+    height: 17px;
+    width: 13px;
+    background:   url('/img/ico/html.png') no-repeat  left top;
+    background-size: 100% 100%;
+}
+.mif-php {
+    height: 17px;
+    width: 13px;
+    background:   url('/img/ico/php.png') no-repeat  left top;
+    background-size: 100% 100%;
+}
+
+  .validator-hint{
+                z-index: 100000;
+}
+
+.font12{
+    font-size: 12px;
+}
+.font13{
+    font-size: 13px;
+}
+.font14{
+    font-size: 14px;
+}
+
+
+.zIndex1500{
+    z-index: 1500;
+}
+.mini-button{
+    line-height: 0px;
+}
+
+/*文件*/
+.file_operate {
+    cursor: pointer;
+    border: #fff 1px solid;
+}
+.file_operate:hover{
+     /*border: #c2c2c2 1px solid;*/
+-webkit-animation: ani-shuttle 1s linear infinite;
+          animation: ani-shuttle 1s linear infinite;
+}
+.cell{
+    border: 1px #ffffff solid;
+}
+
+.linkBorder{
+    border: 1px solid red;
+}

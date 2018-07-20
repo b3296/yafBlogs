@@ -1,0 +1,7 @@
+.idea
+index_default.php
+debug.log
+application/conf/config.ini
+public/index.php
+public/upload
+*.txt
